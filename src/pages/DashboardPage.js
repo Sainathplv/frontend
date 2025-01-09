@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 const DashboardPage = () => {
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
+  // 
 
   useEffect(() => {
     const fetchUser = async () => {
